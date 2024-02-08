@@ -1,6 +1,6 @@
 import streamlit as st
-!pip install pip
-!pip install matplotlib
+pip install pip
+pip install matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 st.write('Hello World')
