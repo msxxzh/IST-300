@@ -16,7 +16,5 @@ st.time_input('School time')
 st.text_area('Description')
 st.file_uploader('Upload a photo')
 st.color_picker('Choose your favorite color')
-
 st.progress(10)
-with st.spinner('Wait for it...'):
-  time.sleep(10)
+st.sidebar.title("Sidebar")
