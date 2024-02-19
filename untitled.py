@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-import graphviz as graphviz
 
 st.write('Hello World')
 if st.checkbox('yes') == True:
