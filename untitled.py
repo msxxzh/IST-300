@@ -19,4 +19,4 @@ st.color_picker('Choose your favorite color')
 st.progress(10)
 st.sidebar.title("Sidebar")
 with st.spinner("hi"):
-  timer.sleep (10)
+  time.sleep (10)
