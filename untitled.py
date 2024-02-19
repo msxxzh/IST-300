@@ -1,9 +1,15 @@
 import streamlit as st
-pip install pip
-pip install matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+import altair as alt
+import graphviz as graphviz
+
 st.write('Hello World')
-if st.checkbox('agree') == True:
-  st.write ('Congratulations')
-  st.balloons()
+st.checkbox('yes')
+st.button('Click')
+st.radio('Pick your gender',['Male','Female'])
+st.selectbox('Pick your gender',['Male','Female'])
+st.multiselect('choose a planet',['Jupiter', 'Mars', 'neptune'])
+st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])s
+t.slider('Pick a number', 0,50)
