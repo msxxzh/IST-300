@@ -2,7 +2,8 @@ import streamlit as st
 
 
 st.write('Hello World')
-st.checkbox('yes')
+if st.checkbox('yes') == True:
+  st.balloons()
 st.button('Click')
 st.radio('Pick your gender',['Male','Female'])
 st.selectbox('Pick your gender',['Male','Female'])
@@ -16,7 +17,6 @@ st.text_area('Description')
 st.file_uploader('Upload a photo')
 st.color_picker('Choose your favorite color')
 
-st.balloons()
 st.progress(10)
 with st.spinner('Wait for it...'):
   time.sleep(10)
